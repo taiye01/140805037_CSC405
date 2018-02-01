@@ -1,0 +1,110 @@
+body {
+    background-image: url("VKTPd2M.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lato', helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+.clear {clear: both;}
+
+
+#header {
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin: 30px auto;
+}
+
+.mainDetails {
+    padding: 25px 35px;
+    border-bottom: 2px solid #cf8a05;
+    background: #ededed;
+}
+
+#name h1 {
+    font-size: 2.5em;
+    font-weight: 200;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin-top: -1px;
+    margin-right: 20px;
+    margin-bottom: -6px;
+}
+
+#name h2 {
+    font-size: 1.9em;
+    margin-left: 2px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    margin-top: 2px;
+}
+
+#name h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin-top: -23px;
+}
+
+#mainArea {
+    padding: 0 40px;
+}
+
+#headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+}
+
+#headshot img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#name {
+    float: left;
+}
+
+section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0;
+}
+
+section:first-child {
+    border-top: 0;
+}
+
+section:last-child {
+    padding: 20px 0 10px;
+}
+
+.sectionTitle {
+    list-style-type: none;
+    padding: 20px;
+    margin:10px;
+    text-align: center;
+    padding-left: 230px;
+    width: 25%;
+}
+
+.sectionTitle a {
+    background-color: #cf8a05;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    color: #ededed;
+    padding-left: 10px;
+    display: block;
+    font-size: .85rem;
+    font-weight: 500;
+    width: 150px;
+    height: 50px;
+    letter-spacing: .5rem;
+    line-height: 50px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.1);
+    text-transform: uppercase;
+    text-decoration: none;
+}
