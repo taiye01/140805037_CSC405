@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+    <link rel="stylesheet" type="text/css" href="mystyleForm.css">
+
+</head>
+<body>
+<h1>Taiye Inc. Sign Up</h1>
+
+<form id="content">
+    <p id="full_name">
+        Name <br>
+        <input type="text" placeholder="Enter Name" id="fullname" onchange="nameValidation()">
+    </p>
+
+    <p id="email" style="display:none">
+        Email<br>
+        <input type="text" placeholder="Enter Email" id="user_email" onchange="emailAddress()">
+    </p>
+
+    <p id="age" style="display:none">
+        Age<br>
+        <input type="number" id="age_field" onchange="ageValidation()">
+    </p>
+
+    <p id="phone" style="display:none">
+        Phone Number<br>
+        <input type="number" id="phoneno" onchange="phoneValidation()">
+    </p>
+
+    <p id="gender" style="display:none">
+        Gender <br>
+        <input type="text" placeholder="Select Gender" id="morf" onchange="userGender()">
+    </p>
+
+    <p id="occupation" style="display:none">
+        Occupation <br>
+        <input type= "text" onchange="occupationValidation()" id="occupation_field">
+    </p>
+
+    <p id="info" style="display:none">
+    </p>
+
+</form>
+<script type="text/javascript" src="Jform.js"></script>
+
+</body>
+</html>
